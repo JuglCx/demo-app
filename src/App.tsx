@@ -6,6 +6,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import apiConfig from "./api-config.json";
+import chatbotConfig from "./chatbot-config.json";
 import { 
   Palette, 
   Code2, 
@@ -39,6 +40,21 @@ export default function App() {
       setScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
+
+    if (window.jugl) {
+    const chatbot = new window.jugl.ChatBot({
+      conversationId: chatbotConfig.conversationId,
+      token: chatbotConfig.token,
+      demoId: chatbotConfig.demoId,
+      businessName: chatbotConfig.businessName,
+      knowledge: chatbotConfig.knowledge,
+      settings: chatbotConfig.settings,
+    });
+
+    console.log("Chatbot initialized:", chatbot);
+  } else {
+    console.error("Jugl SDK not loaded");
+  }
 
     fetch(apiConfig.url, {
     method: "POST",

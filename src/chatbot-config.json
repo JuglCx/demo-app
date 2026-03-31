@@ -1,0 +1,25 @@
+{
+  "conversationId": "demo_conv_00aafb6d-7611-4fc3-be41-9e53464944d3_1774594829",
+  "token": "y2XK5IH8JUJr27QWUVYTwpuGfFM/aEqKMqI...",
+  "demoId": "00aafb6d-7611-4fc3-be41-9e53464944d3",
+  "businessName": "Business name here",
+  "knowledge": "Knowledge instructions",
+  "settings": {
+    "buttonIcon": "default-1",
+    "buttonColor": "#2196F3",
+    "alignment": "right",
+    "sideSpacing": 20,
+    "bottomSpacing": 20,
+    "ctas": ["Hey there 👋", "Let's have a talk!"],
+    "chatName": "chat name displayed in the header",
+    "chatImageUrl": "<url>",
+    "agentName": "AI Assistant",
+    "agentImage": "default-1",
+    "welcomeMessage": "Hello, how can I help you?",
+    "senderMessageBackgroundColor": "#FF0000",
+    "suggestions": [
+      "What is your business about?",
+      "Show me pricing"
+    ]
+  }
+}
