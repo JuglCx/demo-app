@@ -42,12 +42,10 @@ export default function App() {
     window.addEventListener("scroll", handleScroll);
 
     if (window.jugl) {
-    const chatbot = new window.jugl.ChatBot({
-      conversationId: chatbotConfig.conversationId,
+   const chatbot = new window.jugl.ChatBot({
       token: chatbotConfig.token,
-      demoId: chatbotConfig.demoId,
-      businessName: chatbotConfig.businessName,
-      knowledge: chatbotConfig.knowledge,
+      conversationId: chatbotConfig.conversationId,
+      chatbotUrl: chatbotConfig.chatbotUrl,
       settings: chatbotConfig.settings,
     });
 
