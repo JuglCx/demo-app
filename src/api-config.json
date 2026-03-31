@@ -1,5 +1,5 @@
 {
-  "url": "http://api-dev.jugl.com/api/marketing/demo/agent/init",
+  "url": "https://api-dev.jugl.com/api/marketing/demo/agent/init",
   "token": "y2XK5IH8JUJr27QWUVYTwpuGfFM/aEqKMqICk05MnjtxoQR9ZvMVwMmScmT9u12hDVdqLyqmFg7yg2kcWCyG/Q==",
   "business_name": "Jugl - (https://www.jugl.com)",
   "knowledge": "YOUR_LONG_KNOWLEDGE_TEXT_HERE"
