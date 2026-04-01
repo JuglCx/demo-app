@@ -13,19 +13,19 @@
       "id": 1,
       "title": "Brand Identity",
       "description": "We create unique and memorable brand identities that resonate with your target audience.",
-      "icon": "Palette",
+      "icon": "Palette"
     },
     {
       "id": 2,
       "title": "Web Development",
       "description": "High-performance, responsive websites built with the latest technologies.",
-      "icon": "Code2",
+      "icon": "Code2"
     },
     {
       "id": 3,
       "title": "Digital Strategy",
       "description": "Data-driven strategies to help your business reach its full potential online.",
-      "icon": "BarChart3",
+      "icon": "BarChart3"
     }
   ],
   "about": {
