@@ -176,7 +176,8 @@ export default function App() {
           </motion.div>
         </div>
       </section>
-{/* Features Section */}
+
+      {/* Features Section */}
 <section id="features" className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center mb-16">
@@ -186,8 +187,7 @@ export default function App() {
 
     <div className="grid md:grid-cols-3 gap-8">
       {siteConfig.features.map((feature, index) => {
-        const icons = [Palette, Brush, Sparkles];
-        const Icon = icons[index % icons.length];
+        const Icon = IconMap[feature.icon] || Palette;
         return (
           <motion.div
             key={feature.id}
