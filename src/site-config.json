@@ -14,21 +14,18 @@
       "title": "Brand Identity",
       "description": "We create unique and memorable brand identities that resonate with your target audience.",
       "icon": "Palette",
-      "imageUrl": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=1000"
     },
     {
       "id": 2,
       "title": "Web Development",
       "description": "High-performance, responsive websites built with the latest technologies.",
       "icon": "Code2",
-      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1000"
     },
     {
       "id": 3,
       "title": "Digital Strategy",
       "description": "Data-driven strategies to help your business reach its full potential online.",
       "icon": "BarChart3",
-      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
     }
   ],
   "about": {
