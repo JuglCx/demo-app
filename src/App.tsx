@@ -177,7 +177,7 @@ export default function App() {
         </div>
       </section>
 
-const randomIcons = [Palette, Sparkles, Globe, Rocket, Code, Layers];
+const randomIcons = [Sparkles, Globe, Rocket, Code, Layers];
 
 <section id="features" className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-6">
