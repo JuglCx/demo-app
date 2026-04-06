@@ -188,7 +188,7 @@ export default function App() {
               <SafeImage
                 src={siteConfig.hero.imageUrl}
                 alt="Hero"
-                label={`${siteConfig.siteName} Hero`}
+                label={`${siteConfig.siteName}`}
                 className="w-full h-full object-contain"
               />
             </div>
@@ -229,7 +229,7 @@ export default function App() {
             <SafeImage
               src={siteConfig.secondarySection.imageUrl}
               alt="About"
-              label={`${siteConfig.siteName} About`}
+              label={`${siteConfig.siteName}`}
               className="w-full h-full object-contain"
             />
           </div>
